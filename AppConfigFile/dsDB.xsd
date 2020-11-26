@@ -458,7 +458,7 @@ SELECT Id, Nombre, Contrasena, Fecha_creacion, Creador_id FROM usuarios WHERE (I
   <xs:element name="dsDB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dsDB" msprop:Generator_UserDSName="dsDB">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="auditoria_DML" msprop:Generator_TableClassName="auditoria_DMLDataTable" msprop:Generator_TableVarName="tableauditoria_DML" msprop:Generator_RowChangedName="auditoria_DMLRowChanged" msprop:Generator_TablePropName="auditoria_DML" msprop:Generator_RowDeletingName="auditoria_DMLRowDeleting" msprop:Generator_RowChangingName="auditoria_DMLRowChanging" msprop:Generator_RowEvHandlerName="auditoria_DMLRowChangeEventHandler" msprop:Generator_RowDeletedName="auditoria_DMLRowDeleted" msprop:Generator_RowClassName="auditoria_DMLRow" msprop:Generator_UserTableName="auditoria_DML" msprop:Generator_RowEvArgName="auditoria_DMLRowChangeEvent">
+        <xs:element name="auditoria_DML" msprop:Generator_TableClassName="auditoria_DMLDataTable" msprop:Generator_TableVarName="tableauditoria_DML" msprop:Generator_TablePropName="auditoria_DML" msprop:Generator_RowDeletingName="auditoria_DMLRowDeleting" msprop:Generator_RowChangingName="auditoria_DMLRowChanging" msprop:Generator_RowEvHandlerName="auditoria_DMLRowChangeEventHandler" msprop:Generator_RowDeletedName="auditoria_DMLRowDeleted" msprop:Generator_UserTableName="auditoria_DML" msprop:Generator_RowChangedName="auditoria_DMLRowChanged" msprop:Generator_RowEvArgName="auditoria_DMLRowChangeEvent" msprop:Generator_RowClassName="auditoria_DMLRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="accion" msprop:Generator_ColumnVarNameInTable="columnaccion" msprop:Generator_ColumnPropNameInRow="accion" msprop:Generator_ColumnPropNameInTable="accionColumn" msprop:Generator_UserColumnName="accion">
@@ -479,7 +479,7 @@ SELECT Id, Nombre, Contrasena, Fecha_creacion, Creador_id FROM usuarios WHERE (I
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Cargos" msprop:Generator_TableClassName="CargosDataTable" msprop:Generator_TableVarName="tableCargos" msprop:Generator_RowChangedName="CargosRowChanged" msprop:Generator_TablePropName="Cargos" msprop:Generator_RowDeletingName="CargosRowDeleting" msprop:Generator_RowChangingName="CargosRowChanging" msprop:Generator_RowEvHandlerName="CargosRowChangeEventHandler" msprop:Generator_RowDeletedName="CargosRowDeleted" msprop:Generator_RowClassName="CargosRow" msprop:Generator_UserTableName="Cargos" msprop:Generator_RowEvArgName="CargosRowChangeEvent">
+        <xs:element name="Cargos" msprop:Generator_TableClassName="CargosDataTable" msprop:Generator_TableVarName="tableCargos" msprop:Generator_TablePropName="Cargos" msprop:Generator_RowDeletingName="CargosRowDeleting" msprop:Generator_RowChangingName="CargosRowChanging" msprop:Generator_RowEvHandlerName="CargosRowChangeEventHandler" msprop:Generator_RowDeletedName="CargosRowDeleted" msprop:Generator_UserTableName="Cargos" msprop:Generator_RowChangedName="CargosRowChanged" msprop:Generator_RowEvArgName="CargosRowChangeEvent" msprop:Generator_RowClassName="CargosRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
@@ -494,7 +494,7 @@ SELECT Id, Nombre, Contrasena, Fecha_creacion, Creador_id FROM usuarios WHERE (I
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Personas" msprop:Generator_TableClassName="PersonasDataTable" msprop:Generator_TableVarName="tablePersonas" msprop:Generator_RowChangedName="PersonasRowChanged" msprop:Generator_TablePropName="Personas" msprop:Generator_RowDeletingName="PersonasRowDeleting" msprop:Generator_RowChangingName="PersonasRowChanging" msprop:Generator_RowEvHandlerName="PersonasRowChangeEventHandler" msprop:Generator_RowDeletedName="PersonasRowDeleted" msprop:Generator_RowClassName="PersonasRow" msprop:Generator_UserTableName="Personas" msprop:Generator_RowEvArgName="PersonasRowChangeEvent">
+        <xs:element name="Personas" msprop:Generator_TableClassName="PersonasDataTable" msprop:Generator_TableVarName="tablePersonas" msprop:Generator_TablePropName="Personas" msprop:Generator_RowDeletingName="PersonasRowDeleting" msprop:Generator_RowChangingName="PersonasRowChanging" msprop:Generator_RowEvHandlerName="PersonasRowChangeEventHandler" msprop:Generator_RowDeletedName="PersonasRowDeleted" msprop:Generator_UserTableName="Personas" msprop:Generator_RowChangedName="PersonasRowChanged" msprop:Generator_RowEvArgName="PersonasRowChangeEvent" msprop:Generator_RowClassName="PersonasRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:int" />
@@ -555,7 +555,7 @@ SELECT Id, Nombre, Contrasena, Fecha_creacion, Creador_id FROM usuarios WHERE (I
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="PersonasRoles" msprop:Generator_TableClassName="PersonasRolesDataTable" msprop:Generator_TableVarName="tablePersonasRoles" msprop:Generator_RowChangedName="PersonasRolesRowChanged" msprop:Generator_TablePropName="PersonasRoles" msprop:Generator_RowDeletingName="PersonasRolesRowDeleting" msprop:Generator_RowChangingName="PersonasRolesRowChanging" msprop:Generator_RowEvHandlerName="PersonasRolesRowChangeEventHandler" msprop:Generator_RowDeletedName="PersonasRolesRowDeleted" msprop:Generator_RowClassName="PersonasRolesRow" msprop:Generator_UserTableName="PersonasRoles" msprop:Generator_RowEvArgName="PersonasRolesRowChangeEvent">
+        <xs:element name="PersonasRoles" msprop:Generator_TableClassName="PersonasRolesDataTable" msprop:Generator_TableVarName="tablePersonasRoles" msprop:Generator_TablePropName="PersonasRoles" msprop:Generator_RowDeletingName="PersonasRolesRowDeleting" msprop:Generator_RowChangingName="PersonasRolesRowChanging" msprop:Generator_RowEvHandlerName="PersonasRolesRowChangeEventHandler" msprop:Generator_RowDeletedName="PersonasRolesRowDeleted" msprop:Generator_UserTableName="PersonasRoles" msprop:Generator_RowChangedName="PersonasRolesRowChanged" msprop:Generator_RowEvArgName="PersonasRolesRowChangeEvent" msprop:Generator_RowClassName="PersonasRolesRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Persona_id" msprop:Generator_ColumnVarNameInTable="columnPersona_id" msprop:Generator_ColumnPropNameInRow="Persona_id" msprop:Generator_ColumnPropNameInTable="Persona_idColumn" msprop:Generator_UserColumnName="Persona_id" type="xs:int" />
@@ -569,7 +569,7 @@ SELECT Id, Nombre, Contrasena, Fecha_creacion, Creador_id FROM usuarios WHERE (I
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="tipos_comprobantes" msprop:Generator_TableClassName="tipos_comprobantesDataTable" msprop:Generator_TableVarName="tabletipos_comprobantes" msprop:Generator_RowChangedName="tipos_comprobantesRowChanged" msprop:Generator_TablePropName="tipos_comprobantes" msprop:Generator_RowDeletingName="tipos_comprobantesRowDeleting" msprop:Generator_RowChangingName="tipos_comprobantesRowChanging" msprop:Generator_RowEvHandlerName="tipos_comprobantesRowChangeEventHandler" msprop:Generator_RowDeletedName="tipos_comprobantesRowDeleted" msprop:Generator_RowClassName="tipos_comprobantesRow" msprop:Generator_UserTableName="tipos_comprobantes" msprop:Generator_RowEvArgName="tipos_comprobantesRowChangeEvent">
+        <xs:element name="tipos_comprobantes" msprop:Generator_TableClassName="tipos_comprobantesDataTable" msprop:Generator_TableVarName="tabletipos_comprobantes" msprop:Generator_TablePropName="tipos_comprobantes" msprop:Generator_RowDeletingName="tipos_comprobantesRowDeleting" msprop:Generator_RowChangingName="tipos_comprobantesRowChanging" msprop:Generator_RowEvHandlerName="tipos_comprobantesRowChangeEventHandler" msprop:Generator_RowDeletedName="tipos_comprobantesRowDeleted" msprop:Generator_UserTableName="tipos_comprobantes" msprop:Generator_RowChangedName="tipos_comprobantesRowChanged" msprop:Generator_RowEvArgName="tipos_comprobantesRowChangeEvent" msprop:Generator_RowClassName="tipos_comprobantesRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id">
@@ -595,7 +595,7 @@ SELECT Id, Nombre, Contrasena, Fecha_creacion, Creador_id FROM usuarios WHERE (I
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Tipos_Documentos" msprop:Generator_TableClassName="Tipos_DocumentosDataTable" msprop:Generator_TableVarName="tableTipos_Documentos" msprop:Generator_RowChangedName="Tipos_DocumentosRowChanged" msprop:Generator_TablePropName="Tipos_Documentos" msprop:Generator_RowDeletingName="Tipos_DocumentosRowDeleting" msprop:Generator_RowChangingName="Tipos_DocumentosRowChanging" msprop:Generator_RowEvHandlerName="Tipos_DocumentosRowChangeEventHandler" msprop:Generator_RowDeletedName="Tipos_DocumentosRowDeleted" msprop:Generator_RowClassName="Tipos_DocumentosRow" msprop:Generator_UserTableName="Tipos_Documentos" msprop:Generator_RowEvArgName="Tipos_DocumentosRowChangeEvent">
+        <xs:element name="Tipos_Documentos" msprop:Generator_TableClassName="Tipos_DocumentosDataTable" msprop:Generator_TableVarName="tableTipos_Documentos" msprop:Generator_TablePropName="Tipos_Documentos" msprop:Generator_RowDeletingName="Tipos_DocumentosRowDeleting" msprop:Generator_RowChangingName="Tipos_DocumentosRowChanging" msprop:Generator_RowEvHandlerName="Tipos_DocumentosRowChangeEventHandler" msprop:Generator_RowDeletedName="Tipos_DocumentosRowDeleted" msprop:Generator_UserTableName="Tipos_Documentos" msprop:Generator_RowChangedName="Tipos_DocumentosRowChanged" msprop:Generator_RowEvArgName="Tipos_DocumentosRowChangeEvent" msprop:Generator_RowClassName="Tipos_DocumentosRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id">
@@ -616,7 +616,7 @@ SELECT Id, Nombre, Contrasena, Fecha_creacion, Creador_id FROM usuarios WHERE (I
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="usuarios" msprop:Generator_TableClassName="usuariosDataTable" msprop:Generator_TableVarName="tableusuarios" msprop:Generator_RowChangedName="usuariosRowChanged" msprop:Generator_TablePropName="usuarios" msprop:Generator_RowDeletingName="usuariosRowDeleting" msprop:Generator_RowChangingName="usuariosRowChanging" msprop:Generator_RowEvHandlerName="usuariosRowChangeEventHandler" msprop:Generator_RowDeletedName="usuariosRowDeleted" msprop:Generator_RowClassName="usuariosRow" msprop:Generator_UserTableName="usuarios" msprop:Generator_RowEvArgName="usuariosRowChangeEvent">
+        <xs:element name="usuarios" msprop:Generator_TableClassName="usuariosDataTable" msprop:Generator_TableVarName="tableusuarios" msprop:Generator_TablePropName="usuarios" msprop:Generator_RowDeletingName="usuariosRowDeleting" msprop:Generator_RowChangingName="usuariosRowChanging" msprop:Generator_RowEvHandlerName="usuariosRowChangeEventHandler" msprop:Generator_RowDeletedName="usuariosRowDeleted" msprop:Generator_UserTableName="usuarios" msprop:Generator_RowChangedName="usuariosRowChanged" msprop:Generator_RowEvArgName="usuariosRowChangeEvent" msprop:Generator_RowClassName="usuariosRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id">
@@ -676,7 +676,7 @@ SELECT Id, Nombre, Contrasena, Fecha_creacion, Creador_id FROM usuarios WHERE (I
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="Fk_usuario_usuario" msdata:parent="usuarios" msdata:child="usuarios" msdata:parentkey="Id" msdata:childkey="Creador_id" msprop:Generator_UserChildTable="usuarios" msprop:Generator_ChildPropName="GetusuariosRows" msprop:Generator_UserRelationName="Fk_usuario_usuario" msprop:Generator_ParentPropName="usuariosRowParent" msprop:Generator_RelationVarName="relationFk_usuario_usuario" msprop:Generator_UserParentTable="usuarios" />
+      <msdata:Relationship name="Fk_usuario_usuario" msdata:parent="usuarios" msdata:child="usuarios" msdata:parentkey="Id" msdata:childkey="Creador_id" msprop:Generator_UserChildTable="usuarios" msprop:Generator_ChildPropName="GetusuariosRows" msprop:Generator_UserRelationName="Fk_usuario_usuario" msprop:Generator_RelationVarName="relationFk_usuario_usuario" msprop:Generator_UserParentTable="usuarios" msprop:Generator_ParentPropName="usuariosRowParent" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>
