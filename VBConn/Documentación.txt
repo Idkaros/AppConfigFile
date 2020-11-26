@@ -1,0 +1,28 @@
+﻿El enfoque de este proyecto es: tener dos clases, una "Configuracion" y una "Conexion". La clase Configuracion se encargará de la gestión del archivo de configuración y será singleton. La clase Conexion se encarga de todo lo que tenga que ver con la base de datos.
+En el formulario principal el que exista o no el archivo de conexión es el parametro para pedir la configuración de conexión a la base de datos.
+
+##### Configuracion
+Tiene:
+1. _stringbuilder	: Variable privada donde se guarda la cadena de conexión.
+
+Los métodos de la clase Configuracion
+1. ExisArchConf	: devuelve un valor booleano tanto por si existe o no el archivo donde se guarda la cadena de conexión a la base de datos.
+3. Generar	: levanta el formulario para generar la conexión.
+4. Guardar	:
+5. Leer		: trata de leer el archivo de configuración de texto plano.
+
+# Lógica:
+La existencia del archivo de configuración de texto plano es la bandera para saber si ya se generó la cadena de conexión. La misma se valida en el frmMain.
+
+
+##### Conexion
+La clase Conexion deberá tener las propiedades:
+1. DataBase		: para asignar el nombre de la base de datos a conectar.
+2. DataSource	: para asignar el servidor\instancia de base de datos.
+3. User			: para asignar el usuario del motor de BD.
+4. Password		: para asignar la contraseña del usuario.
+
+# Lógica
+
+##### Formulario de generación de la configuración
+En el load del frmGenerarConfiguración si existe el archivo de configuración debe cargar el mismo.
