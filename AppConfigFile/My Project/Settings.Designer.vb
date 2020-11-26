@@ -64,6 +64,17 @@ Namespace My
                 Return CType(Me("cadena_conexion"),String)
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=.\sql2017;Initial Catalog=AppConfigFile;Persist Security Info=True;Us"& _ 
+            "er ID=sa;Password=123")>  _
+        Public ReadOnly Property caden_conex() As String
+            Get
+                Return CType(Me("caden_conex"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 

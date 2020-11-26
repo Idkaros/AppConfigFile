@@ -1,1 +1,7 @@
-﻿Con la ventana Origen de datos (Data source), con esa ventana se trabaja en databinding.
+﻿Con la ventana Origen de datos (Data source) generamo la conexión con la base de datos a trabajar. Está ventana genera la conexión en el apartado configuraciones (settings) del proyecto y en el archivo App.config.
+
+Para que el proyecto vuelva a escribir en el archivo de configuración del sistema hay que volver compilar la aplicación.
+
+Para generar una nueva cadena de conexión en la ventana de "Origen de datos" (Data Sourcre) le damos en "agregar nuevo origen de datos", luego seleccionamos "base de datos" (Database) el lugar de donde obtendremos los datos... en la ventana donde nos pregunta cuál conexión de datos usar, aquí es donde podes generar una nueva conexión.
+Ej.: Data Source=.\sql2017;Initial Catalog=AppConfigFile;Persist Security Info=True;User ID=sa;Password=123
+caden_conex

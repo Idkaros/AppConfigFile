@@ -92,10 +92,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dsDB.Designer.vb">
+    <Compile Include="dsAppConfigFile.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>dsDB.xsd</DependentUpon>
+      <DependentUpon>dsAppConfigFile.xsd</DependentUpon>
     </Compile>
     <Compile Include="frmPrincipal.vb">
       <SubType>Form</SubType>
@@ -132,16 +132,16 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="dsDB.xsc">
-      <DependentUpon>dsDB.xsd</DependentUpon>
+    <None Include="dsAppConfigFile.xsc">
+      <DependentUpon>dsAppConfigFile.xsd</DependentUpon>
     </None>
-    <None Include="dsDB.xsd">
+    <None Include="dsAppConfigFile.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>dsDB.Designer.vb</LastGenOutput>
+      <LastGenOutput>dsAppConfigFile.Designer.vb</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="dsDB.xss">
-      <DependentUpon>dsDB.xsd</DependentUpon>
+    <None Include="dsAppConfigFile.xss">
+      <DependentUpon>dsAppConfigFile.xsd</DependentUpon>
     </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -152,7 +152,9 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
